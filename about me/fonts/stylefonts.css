@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "AcromExtraBold";
+    src: url("../fonts/AcromExtraBold/AcromExtraBold.eot");
+    src: url("../fonts/AcromExtraBold/AcromExtraBold.eot?#iefix")format("embedded-opentype"),
+        url("../fonts/AcromExtraBold/AcromExtraBold.woff") format("woff"),
+        url("../fonts/AcromExtraBold/AcromExtraBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 800;
+}

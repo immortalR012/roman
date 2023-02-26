@@ -1,0 +1,142 @@
+.page {
+    background-color: #213B7E;
+    min-height: 100vh;
+    margin: 0 auto;
+    font-family: "Open Sans";
+    font-style: normal;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 240px 275px;
+    max-width: 85%;
+    min-height: 200px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 15px;
+
+}
+
+.header-list {
+    display: grid;
+
+    font-weight: 700;
+    font-size: 25px;
+    padding: 0 40px 0 0;
+    list-style: none;
+}
+
+.text-box {
+
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.my-foto {
+    display: grid;
+    margin: 0;
+    margin-left: 20px;
+    height: 100%;
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 70px;
+
+}
+
+.container {
+    max-width: 85%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+
+.top-header {
+    display: flex;
+    justify-content: center;
+
+    margin: 15px auto;
+    font-size: 30px;
+
+}
+
+.foto-top-box {
+    display: grid;
+    grid-template-columns: 230px 100px 230px;
+    gap: 70px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    min-height: 240px;
+}
+
+.foto-man {
+    height: 100%;
+    max-height: 230px;
+    max-width: 230px;
+    border-radius: 70px;
+}
+
+.foto-arrows {
+    height: 100%;
+    max-height: 100px;
+    max-width: 100px;
+
+}
+
+.foto-site {
+    height: 100%;
+    max-height: 230px;
+    max-width: 230px;
+    border-radius: 20px;
+}
+
+.foto-medium-box {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 230px 100px 230px;
+    gap: 70px;
+}
+
+.foto-girl {
+
+    height: 100%;
+    max-height: 230px;
+    max-width: 230px;
+    border-radius: 70px;
+}
+
+
+.foto-try-frends {
+
+    height: 100%;
+    max-height: 230px;
+    max-width: 230px;
+    border-radius: 20px;
+}
+
+.text-box {
+    margin: 0 0px 15px 10px;
+
+}
+
+
+
+@media(max-width :825px) {
+
+    .foto-top-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foto-medium-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+}
