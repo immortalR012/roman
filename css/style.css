@@ -128,15 +128,21 @@
 /* /h2 */
 
 /* p */
+.text-site {
+    margin: 0;
+    margin-top: 15px;
+    width: 634px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
 .text-site-1 {
     display: grid;
-    grid-template-columns: 634px 130px;
+    grid-template-columns: 630px 129px;
     gap: 70px;
     margin: 0;
     margin-top: 15px;
     width: 634px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
 }
@@ -153,15 +159,7 @@
 
 }
 
-.text-site {
-    margin: 0;
-    margin-top: 15px;
-    width: 634px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-}
+
 
 /* /p */
 
@@ -260,6 +258,7 @@
 .maps-box {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
 }
@@ -273,10 +272,12 @@
 
 }
 
+
+
 .map {
     display: flex;
     margin: 0 auto;
-    min-width: 1268px;
+    width: 100%;
     min-height: 370px;
 }
 
@@ -370,6 +371,11 @@
     }
 
 
+    .text-site-1 {
+        font-size: 40px
+    }
+
+
     .text-site {
         font-size: 40px
     }
@@ -388,12 +394,13 @@
 
     }
 
-    .map {
+    .maps-box {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 0;
-        min-width: 400px;
+        margin: 0 auto;
+        min-width: 700px;
         min-height: 1300px;
     }
 
